@@ -63,13 +63,7 @@
   //Keydown
   window.addEventListener('keydown', function(e) {
 
-    //Hämta keycode
-    let keyCode = e.keyCode;
-
-    //Hämta div
- /*   const audio = document.querySelector('audio[data-key="' + keyCode + '"]');
-    const div = document.querySelector('[data-key="' + keyCode + '"]'); */
-
+    //Hämta audio + div
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     const div = document.querySelector(`[data-key="${e.keyCode}"]`);
 
@@ -96,8 +90,6 @@
     }
 
   });
-  //Keydown - get data-key - find audio
-  //Div . addClass
 
 </script>
 
